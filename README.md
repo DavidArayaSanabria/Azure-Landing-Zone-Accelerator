@@ -69,7 +69,7 @@ When you elevate your access, you will be assigned the User Access Administrator
 
 You should remove this elevated access once you have made the changes you need to make at root scope.
 
-![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/4eebf9894a8e203c31cb1d664fc13552c84cd789/Images/Image%203.png)
+![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/d550c0e5f03f58856f06abc2f5ce6f79084a0712/Images/image%203.png)
 
 # Elevate access for a Global Administrator
 Follow these steps to elevate access for a Global Administrator using the Azure portal.
@@ -82,7 +82,7 @@ Open Azure Active Directory.
 
 Under Manage, select Properties.
 
-![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/4eebf9894a8e203c31cb1d664fc13552c84cd789/Images/image%204.png)
+![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/d550c0e5f03f58856f06abc2f5ce6f79084a0712/Images/Image%204.png)
 
 
 Under Access management for Azure resources, set the toggle to Yes.
@@ -114,7 +114,7 @@ az role assignment create --scope '/' --role 'Owner' --assignee-object-id <id> -
 
 With the assistance of your involved Team members and Microsoft folks fill out the Landing Zone Accelerator template accessing this link https://aka.ms/caf/ready/accelerator 
 
-![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/4eebf9894a8e203c31cb1d664fc13552c84cd789/Images/Image%207.png)
+![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/d550c0e5f03f58856f06abc2f5ce6f79084a0712/Images/image%207.png)
 
 
 ## Azure services and related products
