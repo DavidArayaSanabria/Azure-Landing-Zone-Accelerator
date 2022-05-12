@@ -112,7 +112,7 @@ az role assignment create --scope '/' --role 'Owner' --assignee-object-id <id> -
 ```
 ## Run the Landing Zone Accelerator
 
-With the assistance of your involved Team members and Microsoft folks fill out the Landing Zone Accelerator template accessing this link https://aka.ms/caf/ready/accelerator 
+With the assistance of your key Team members involved on this project and the  Microsoft folks fill out the Landing Zone Accelerator template pushing the buton below https://aka.ms/caf/ready/accelerator 
 
 ![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/d550c0e5f03f58856f06abc2f5ce6f79084a0712/Images/image%207.png)
 
