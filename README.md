@@ -39,7 +39,7 @@ The accelerator is an Azure-portal-based deployment that will provide a full imp
 
 # Prerequisites for deploying using the Azure landing zone accelerator
 
-## Define with your and and Cloud Architect how many and the porpuse of the subscriptions you   will need and create them. Subscriptions can be a single one or several subsciptions in an Enterprise Agreement for different porpuses, for example:
+## Define with your Team and Cloud Architect how many and the porpuse of the subscriptions you   will need and create them. Subscriptions can be a single one or several subsciptions in an Enterprise Agreement for different porpuses, for example:
 
 - Management subscription (Used for Logs, Key Vaults, Monitoring services, etc)
 - Connectivity subscription (Used for Firewalls, Virtual Networks, Gateways, VPNs, etc)
