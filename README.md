@@ -22,13 +22,13 @@ Whether you're looking to deploy your first production application to Azure or y
 - Security Teams
 - Network Administrators
 - Cloud Solution Architect
-- Finantial Team
+- Financial Team
 - Project Managers
 
 # Azure landing zone conceptual architecture
 For many organizations, the Azure landing zone conceptual architecture below represents the destination in their cloud adoption journey. It's a mature, scaled-out target architecture intended to help organizations operate successful cloud environments that drive their business while maintaining best practices for security and governance.
 
-This conceptual architecture represents scale and maturity decisions based on a wealth of lessons learned and feedback from customers who have adopted Azure as part of their digital estate.
+This conceptual architecture represents scale and mature decisions based on a wealth of lessons learned and feedback from customers who have adopted Azure as part of their digital estate.
 
 ![alt image](https://github.com/DavidArayaSanabria/Azure-Landing-Zone-Accelerator/blob/4eebf9894a8e203c31cb1d664fc13552c84cd789/Images/image%202.png)
 
@@ -39,7 +39,7 @@ The accelerator is an Azure-portal-based deployment that will provide a full imp
 
 # Prerequisites for deploying using the Azure landing zone accelerator
 
-## Define with your Team and Cloud Architect how many and the porpuse of the subscriptions you   will need and create them. Subscriptions can be a single one or several subsciptions in an Enterprise Agreement for different porpuses, for example:
+## Define with your Team and Cloud Architect how many and the purpose of the subscriptions you   will need and create them. Subscriptions can be a single one or several subscriptions in an Enterprise Agreement for different purposes, for example:
 
 - Management subscription (Used for Logs, Key Vaults, Monitoring services, etc)
 - Connectivity subscription (Used for Firewalls, Virtual Networks, Gateways, VPNs, etc)
@@ -58,9 +58,9 @@ Why would you need to elevate your access?
 If you are a Global Administrator, there might be times when you want to do the following actions:
 
 - Regain access to an Azure subscription or management group when a user has lost access
-- Grant another user or yourself access to an Azure subscription or management group
+- Grant another user or you access to an Azure subscription or management group
 - See all Azure subscriptions or management groups in an organization
-- Allow an automation app (such as an invoicing or auditing app) to access all Azure  subscriptions or management groups
+- Allow an automation app (such as an invoicing or auditing app) to access all Azure subscriptions or management groups
 
 How does elevated access work?
 Azure AD and Azure resources are secured independently from one another. That is, Azure AD role assignments do not grant access to Azure resources, and Azure role assignments do not grant access to Azure AD. However, if you are a Global Administrator in Azure AD, you can assign yourself access to all Azure subscriptions and management groups in your directory. Use this capability if you don't have access to Azure subscription resources, such as virtual machines or storage accounts, and you want to use your Global Administrator privilege to gain access to those resources.
@@ -74,7 +74,7 @@ You should remove this elevated access once you have made the changes you need t
 # Elevate access for a Global Administrator
 Follow these steps to elevate access for a Global Administrator using the Azure portal.
 
-Sign in to the Azure portal or the Azure Active Directory admin center as a Global Administrator.
+Sign into the Azure portal or the Azure Active Directory admin center as a Global Administrator.
 
 If you are using Azure AD Privileged Identity Management, activate your Global Administrator role assignment.
 
