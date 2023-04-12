@@ -107,7 +107,7 @@ Assign Owner or Contributor to the principal that needs to deploy the templates.
 Azure CLI:
 
 ```
-az ad signed-in-user show --query objectId
+az ad signed-in-user show 
 az role assignment create --scope '/' --role 'Owner' --assignee-object-id <id> --assignee-principal-type User
 ```
 ## Run the Landing Zone Accelerator
