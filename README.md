@@ -44,9 +44,7 @@ The accelerator is an Azure-portal-based deployment that will provide a full imp
 - Management subscription (Used for Logs, Key Vaults, Monitoring services, etc)
 - Connectivity subscription (Used for Firewalls, Virtual Networks, Gateways, VPNs, etc)
 - Identity subscription (Domain Controllers in the cloud)
-- Production (Production workloads)
-- Development (Development workloads)
-- QA, Staging, UAT
+
 
 ## Define if your Azure AD used for Office 365 will be used also for the new Azure environment.
 
